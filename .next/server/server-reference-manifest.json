@@ -1,0 +1,174 @@
+{
+  "node": {
+    "0024a7401376c879589a20ae1c1e8bdc03c7dafd5f": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fstorage-setup.ts%22%2C%5B%7B%22id%22%3A%220024a7401376c879589a20ae1c1e8bdc03c7dafd5f%22%2C%22exportedName%22%3A%22setupStorageBucket%22%7D%5D%5D%2C%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fmockup-actions.ts%22%2C%5B%7B%22id%22%3A%22003bb4ab5d57f9468139893c8d29e5b2ee55aafe97%22%2C%22exportedName%22%3A%22getAllMockups%22%7D%2C%7B%22id%22%3A%22408be91f38be206f5e2dbdeeab30ac2f948efc9b33%22%2C%22exportedName%22%3A%22getLinkedMockups%22%7D%2C%7B%22id%22%3A%2240ba4367c20d889c8274e7065fffcfcbe26ea90fe3%22%2C%22exportedName%22%3A%22getMockupById%22%7D%2C%7B%22id%22%3A%2240d7ff7c27d536c9e9790b4432839acf074d834074%22%2C%22exportedName%22%3A%22checkMockupExists%22%7D%2C%7B%22id%22%3A%227088330f76c8c1bfdfa621c727eb2c5a5e627a5064%22%2C%22exportedName%22%3A%22saveMockup%22%7D%2C%7B%22id%22%3A%2278fb866c9abd0044eb4c74b997559197c53ab30eb1%22%2C%22exportedName%22%3A%22updateMockup%22%7D%5D%5D%2C%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fimage-actions.ts%22%2C%5B%7B%22id%22%3A%224092a42fa656bc2f635ff77403211bdc498fd63438%22%2C%22exportedName%22%3A%22uploadImage%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/mockup/[id]/page": {
+          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fstorage-setup.ts%22%2C%5B%7B%22id%22%3A%220024a7401376c879589a20ae1c1e8bdc03c7dafd5f%22%2C%22exportedName%22%3A%22setupStorageBucket%22%7D%5D%5D%2C%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fimage-actions.ts%22%2C%5B%7B%22id%22%3A%224092a42fa656bc2f635ff77403211bdc498fd63438%22%2C%22exportedName%22%3A%22uploadImage%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/mockup/[id]/view/page": {
+          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fstorage-setup.ts%22%2C%5B%7B%22id%22%3A%220024a7401376c879589a20ae1c1e8bdc03c7dafd5f%22%2C%22exportedName%22%3A%22setupStorageBucket%22%7D%5D%5D%2C%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fimage-actions.ts%22%2C%5B%7B%22id%22%3A%224092a42fa656bc2f635ff77403211bdc498fd63438%22%2C%22exportedName%22%3A%22uploadImage%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser",
+        "app/mockup/[id]/page": "action-browser",
+        "app/mockup/[id]/view/page": "action-browser"
+      }
+    },
+    "003bb4ab5d57f9468139893c8d29e5b2ee55aafe97": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fstorage-setup.ts%22%2C%5B%7B%22id%22%3A%220024a7401376c879589a20ae1c1e8bdc03c7dafd5f%22%2C%22exportedName%22%3A%22setupStorageBucket%22%7D%5D%5D%2C%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fmockup-actions.ts%22%2C%5B%7B%22id%22%3A%22003bb4ab5d57f9468139893c8d29e5b2ee55aafe97%22%2C%22exportedName%22%3A%22getAllMockups%22%7D%2C%7B%22id%22%3A%22408be91f38be206f5e2dbdeeab30ac2f948efc9b33%22%2C%22exportedName%22%3A%22getLinkedMockups%22%7D%2C%7B%22id%22%3A%2240ba4367c20d889c8274e7065fffcfcbe26ea90fe3%22%2C%22exportedName%22%3A%22getMockupById%22%7D%2C%7B%22id%22%3A%2240d7ff7c27d536c9e9790b4432839acf074d834074%22%2C%22exportedName%22%3A%22checkMockupExists%22%7D%2C%7B%22id%22%3A%227088330f76c8c1bfdfa621c727eb2c5a5e627a5064%22%2C%22exportedName%22%3A%22saveMockup%22%7D%2C%7B%22id%22%3A%2278fb866c9abd0044eb4c74b997559197c53ab30eb1%22%2C%22exportedName%22%3A%22updateMockup%22%7D%5D%5D%2C%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fimage-actions.ts%22%2C%5B%7B%22id%22%3A%224092a42fa656bc2f635ff77403211bdc498fd63438%22%2C%22exportedName%22%3A%22uploadImage%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/mockup/[id]/page": {
+          "moduleId": "(rsc)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fmockup-actions.ts%22%2C%5B%7B%22id%22%3A%22003bb4ab5d57f9468139893c8d29e5b2ee55aafe97%22%2C%22exportedName%22%3A%22getAllMockups%22%7D%2C%7B%22id%22%3A%22408be91f38be206f5e2dbdeeab30ac2f948efc9b33%22%2C%22exportedName%22%3A%22getLinkedMockups%22%7D%2C%7B%22id%22%3A%2240ba4367c20d889c8274e7065fffcfcbe26ea90fe3%22%2C%22exportedName%22%3A%22getMockupById%22%7D%2C%7B%22id%22%3A%2240d7ff7c27d536c9e9790b4432839acf074d834074%22%2C%22exportedName%22%3A%22checkMockupExists%22%7D%2C%7B%22id%22%3A%227088330f76c8c1bfdfa621c727eb2c5a5e627a5064%22%2C%22exportedName%22%3A%22saveMockup%22%7D%2C%7B%22id%22%3A%2278fb866c9abd0044eb4c74b997559197c53ab30eb1%22%2C%22exportedName%22%3A%22updateMockup%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/mockup/[id]/view/page": {
+          "moduleId": "(rsc)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fmockup-actions.ts%22%2C%5B%7B%22id%22%3A%22003bb4ab5d57f9468139893c8d29e5b2ee55aafe97%22%2C%22exportedName%22%3A%22getAllMockups%22%7D%2C%7B%22id%22%3A%22408be91f38be206f5e2dbdeeab30ac2f948efc9b33%22%2C%22exportedName%22%3A%22getLinkedMockups%22%7D%2C%7B%22id%22%3A%2240ba4367c20d889c8274e7065fffcfcbe26ea90fe3%22%2C%22exportedName%22%3A%22getMockupById%22%7D%2C%7B%22id%22%3A%2240d7ff7c27d536c9e9790b4432839acf074d834074%22%2C%22exportedName%22%3A%22checkMockupExists%22%7D%2C%7B%22id%22%3A%227088330f76c8c1bfdfa621c727eb2c5a5e627a5064%22%2C%22exportedName%22%3A%22saveMockup%22%7D%2C%7B%22id%22%3A%2278fb866c9abd0044eb4c74b997559197c53ab30eb1%22%2C%22exportedName%22%3A%22updateMockup%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser",
+        "app/mockup/[id]/page": "rsc",
+        "app/mockup/[id]/view/page": "rsc"
+      }
+    },
+    "408be91f38be206f5e2dbdeeab30ac2f948efc9b33": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fstorage-setup.ts%22%2C%5B%7B%22id%22%3A%220024a7401376c879589a20ae1c1e8bdc03c7dafd5f%22%2C%22exportedName%22%3A%22setupStorageBucket%22%7D%5D%5D%2C%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fmockup-actions.ts%22%2C%5B%7B%22id%22%3A%22003bb4ab5d57f9468139893c8d29e5b2ee55aafe97%22%2C%22exportedName%22%3A%22getAllMockups%22%7D%2C%7B%22id%22%3A%22408be91f38be206f5e2dbdeeab30ac2f948efc9b33%22%2C%22exportedName%22%3A%22getLinkedMockups%22%7D%2C%7B%22id%22%3A%2240ba4367c20d889c8274e7065fffcfcbe26ea90fe3%22%2C%22exportedName%22%3A%22getMockupById%22%7D%2C%7B%22id%22%3A%2240d7ff7c27d536c9e9790b4432839acf074d834074%22%2C%22exportedName%22%3A%22checkMockupExists%22%7D%2C%7B%22id%22%3A%227088330f76c8c1bfdfa621c727eb2c5a5e627a5064%22%2C%22exportedName%22%3A%22saveMockup%22%7D%2C%7B%22id%22%3A%2278fb866c9abd0044eb4c74b997559197c53ab30eb1%22%2C%22exportedName%22%3A%22updateMockup%22%7D%5D%5D%2C%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fimage-actions.ts%22%2C%5B%7B%22id%22%3A%224092a42fa656bc2f635ff77403211bdc498fd63438%22%2C%22exportedName%22%3A%22uploadImage%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/mockup/[id]/page": {
+          "moduleId": "(rsc)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fmockup-actions.ts%22%2C%5B%7B%22id%22%3A%22003bb4ab5d57f9468139893c8d29e5b2ee55aafe97%22%2C%22exportedName%22%3A%22getAllMockups%22%7D%2C%7B%22id%22%3A%22408be91f38be206f5e2dbdeeab30ac2f948efc9b33%22%2C%22exportedName%22%3A%22getLinkedMockups%22%7D%2C%7B%22id%22%3A%2240ba4367c20d889c8274e7065fffcfcbe26ea90fe3%22%2C%22exportedName%22%3A%22getMockupById%22%7D%2C%7B%22id%22%3A%2240d7ff7c27d536c9e9790b4432839acf074d834074%22%2C%22exportedName%22%3A%22checkMockupExists%22%7D%2C%7B%22id%22%3A%227088330f76c8c1bfdfa621c727eb2c5a5e627a5064%22%2C%22exportedName%22%3A%22saveMockup%22%7D%2C%7B%22id%22%3A%2278fb866c9abd0044eb4c74b997559197c53ab30eb1%22%2C%22exportedName%22%3A%22updateMockup%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/mockup/[id]/view/page": {
+          "moduleId": "(rsc)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fmockup-actions.ts%22%2C%5B%7B%22id%22%3A%22003bb4ab5d57f9468139893c8d29e5b2ee55aafe97%22%2C%22exportedName%22%3A%22getAllMockups%22%7D%2C%7B%22id%22%3A%22408be91f38be206f5e2dbdeeab30ac2f948efc9b33%22%2C%22exportedName%22%3A%22getLinkedMockups%22%7D%2C%7B%22id%22%3A%2240ba4367c20d889c8274e7065fffcfcbe26ea90fe3%22%2C%22exportedName%22%3A%22getMockupById%22%7D%2C%7B%22id%22%3A%2240d7ff7c27d536c9e9790b4432839acf074d834074%22%2C%22exportedName%22%3A%22checkMockupExists%22%7D%2C%7B%22id%22%3A%227088330f76c8c1bfdfa621c727eb2c5a5e627a5064%22%2C%22exportedName%22%3A%22saveMockup%22%7D%2C%7B%22id%22%3A%2278fb866c9abd0044eb4c74b997559197c53ab30eb1%22%2C%22exportedName%22%3A%22updateMockup%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser",
+        "app/mockup/[id]/page": "rsc",
+        "app/mockup/[id]/view/page": "rsc"
+      }
+    },
+    "40ba4367c20d889c8274e7065fffcfcbe26ea90fe3": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fstorage-setup.ts%22%2C%5B%7B%22id%22%3A%220024a7401376c879589a20ae1c1e8bdc03c7dafd5f%22%2C%22exportedName%22%3A%22setupStorageBucket%22%7D%5D%5D%2C%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fmockup-actions.ts%22%2C%5B%7B%22id%22%3A%22003bb4ab5d57f9468139893c8d29e5b2ee55aafe97%22%2C%22exportedName%22%3A%22getAllMockups%22%7D%2C%7B%22id%22%3A%22408be91f38be206f5e2dbdeeab30ac2f948efc9b33%22%2C%22exportedName%22%3A%22getLinkedMockups%22%7D%2C%7B%22id%22%3A%2240ba4367c20d889c8274e7065fffcfcbe26ea90fe3%22%2C%22exportedName%22%3A%22getMockupById%22%7D%2C%7B%22id%22%3A%2240d7ff7c27d536c9e9790b4432839acf074d834074%22%2C%22exportedName%22%3A%22checkMockupExists%22%7D%2C%7B%22id%22%3A%227088330f76c8c1bfdfa621c727eb2c5a5e627a5064%22%2C%22exportedName%22%3A%22saveMockup%22%7D%2C%7B%22id%22%3A%2278fb866c9abd0044eb4c74b997559197c53ab30eb1%22%2C%22exportedName%22%3A%22updateMockup%22%7D%5D%5D%2C%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fimage-actions.ts%22%2C%5B%7B%22id%22%3A%224092a42fa656bc2f635ff77403211bdc498fd63438%22%2C%22exportedName%22%3A%22uploadImage%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/mockup/[id]/page": {
+          "moduleId": "(rsc)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fmockup-actions.ts%22%2C%5B%7B%22id%22%3A%22003bb4ab5d57f9468139893c8d29e5b2ee55aafe97%22%2C%22exportedName%22%3A%22getAllMockups%22%7D%2C%7B%22id%22%3A%22408be91f38be206f5e2dbdeeab30ac2f948efc9b33%22%2C%22exportedName%22%3A%22getLinkedMockups%22%7D%2C%7B%22id%22%3A%2240ba4367c20d889c8274e7065fffcfcbe26ea90fe3%22%2C%22exportedName%22%3A%22getMockupById%22%7D%2C%7B%22id%22%3A%2240d7ff7c27d536c9e9790b4432839acf074d834074%22%2C%22exportedName%22%3A%22checkMockupExists%22%7D%2C%7B%22id%22%3A%227088330f76c8c1bfdfa621c727eb2c5a5e627a5064%22%2C%22exportedName%22%3A%22saveMockup%22%7D%2C%7B%22id%22%3A%2278fb866c9abd0044eb4c74b997559197c53ab30eb1%22%2C%22exportedName%22%3A%22updateMockup%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/mockup/[id]/view/page": {
+          "moduleId": "(rsc)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fmockup-actions.ts%22%2C%5B%7B%22id%22%3A%22003bb4ab5d57f9468139893c8d29e5b2ee55aafe97%22%2C%22exportedName%22%3A%22getAllMockups%22%7D%2C%7B%22id%22%3A%22408be91f38be206f5e2dbdeeab30ac2f948efc9b33%22%2C%22exportedName%22%3A%22getLinkedMockups%22%7D%2C%7B%22id%22%3A%2240ba4367c20d889c8274e7065fffcfcbe26ea90fe3%22%2C%22exportedName%22%3A%22getMockupById%22%7D%2C%7B%22id%22%3A%2240d7ff7c27d536c9e9790b4432839acf074d834074%22%2C%22exportedName%22%3A%22checkMockupExists%22%7D%2C%7B%22id%22%3A%227088330f76c8c1bfdfa621c727eb2c5a5e627a5064%22%2C%22exportedName%22%3A%22saveMockup%22%7D%2C%7B%22id%22%3A%2278fb866c9abd0044eb4c74b997559197c53ab30eb1%22%2C%22exportedName%22%3A%22updateMockup%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser",
+        "app/mockup/[id]/page": "rsc",
+        "app/mockup/[id]/view/page": "rsc"
+      }
+    },
+    "40d7ff7c27d536c9e9790b4432839acf074d834074": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fstorage-setup.ts%22%2C%5B%7B%22id%22%3A%220024a7401376c879589a20ae1c1e8bdc03c7dafd5f%22%2C%22exportedName%22%3A%22setupStorageBucket%22%7D%5D%5D%2C%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fmockup-actions.ts%22%2C%5B%7B%22id%22%3A%22003bb4ab5d57f9468139893c8d29e5b2ee55aafe97%22%2C%22exportedName%22%3A%22getAllMockups%22%7D%2C%7B%22id%22%3A%22408be91f38be206f5e2dbdeeab30ac2f948efc9b33%22%2C%22exportedName%22%3A%22getLinkedMockups%22%7D%2C%7B%22id%22%3A%2240ba4367c20d889c8274e7065fffcfcbe26ea90fe3%22%2C%22exportedName%22%3A%22getMockupById%22%7D%2C%7B%22id%22%3A%2240d7ff7c27d536c9e9790b4432839acf074d834074%22%2C%22exportedName%22%3A%22checkMockupExists%22%7D%2C%7B%22id%22%3A%227088330f76c8c1bfdfa621c727eb2c5a5e627a5064%22%2C%22exportedName%22%3A%22saveMockup%22%7D%2C%7B%22id%22%3A%2278fb866c9abd0044eb4c74b997559197c53ab30eb1%22%2C%22exportedName%22%3A%22updateMockup%22%7D%5D%5D%2C%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fimage-actions.ts%22%2C%5B%7B%22id%22%3A%224092a42fa656bc2f635ff77403211bdc498fd63438%22%2C%22exportedName%22%3A%22uploadImage%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/mockup/[id]/page": {
+          "moduleId": "(rsc)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fmockup-actions.ts%22%2C%5B%7B%22id%22%3A%22003bb4ab5d57f9468139893c8d29e5b2ee55aafe97%22%2C%22exportedName%22%3A%22getAllMockups%22%7D%2C%7B%22id%22%3A%22408be91f38be206f5e2dbdeeab30ac2f948efc9b33%22%2C%22exportedName%22%3A%22getLinkedMockups%22%7D%2C%7B%22id%22%3A%2240ba4367c20d889c8274e7065fffcfcbe26ea90fe3%22%2C%22exportedName%22%3A%22getMockupById%22%7D%2C%7B%22id%22%3A%2240d7ff7c27d536c9e9790b4432839acf074d834074%22%2C%22exportedName%22%3A%22checkMockupExists%22%7D%2C%7B%22id%22%3A%227088330f76c8c1bfdfa621c727eb2c5a5e627a5064%22%2C%22exportedName%22%3A%22saveMockup%22%7D%2C%7B%22id%22%3A%2278fb866c9abd0044eb4c74b997559197c53ab30eb1%22%2C%22exportedName%22%3A%22updateMockup%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/mockup/[id]/view/page": {
+          "moduleId": "(rsc)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fmockup-actions.ts%22%2C%5B%7B%22id%22%3A%22003bb4ab5d57f9468139893c8d29e5b2ee55aafe97%22%2C%22exportedName%22%3A%22getAllMockups%22%7D%2C%7B%22id%22%3A%22408be91f38be206f5e2dbdeeab30ac2f948efc9b33%22%2C%22exportedName%22%3A%22getLinkedMockups%22%7D%2C%7B%22id%22%3A%2240ba4367c20d889c8274e7065fffcfcbe26ea90fe3%22%2C%22exportedName%22%3A%22getMockupById%22%7D%2C%7B%22id%22%3A%2240d7ff7c27d536c9e9790b4432839acf074d834074%22%2C%22exportedName%22%3A%22checkMockupExists%22%7D%2C%7B%22id%22%3A%227088330f76c8c1bfdfa621c727eb2c5a5e627a5064%22%2C%22exportedName%22%3A%22saveMockup%22%7D%2C%7B%22id%22%3A%2278fb866c9abd0044eb4c74b997559197c53ab30eb1%22%2C%22exportedName%22%3A%22updateMockup%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser",
+        "app/mockup/[id]/page": "rsc",
+        "app/mockup/[id]/view/page": "rsc"
+      }
+    },
+    "7088330f76c8c1bfdfa621c727eb2c5a5e627a5064": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fstorage-setup.ts%22%2C%5B%7B%22id%22%3A%220024a7401376c879589a20ae1c1e8bdc03c7dafd5f%22%2C%22exportedName%22%3A%22setupStorageBucket%22%7D%5D%5D%2C%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fmockup-actions.ts%22%2C%5B%7B%22id%22%3A%22003bb4ab5d57f9468139893c8d29e5b2ee55aafe97%22%2C%22exportedName%22%3A%22getAllMockups%22%7D%2C%7B%22id%22%3A%22408be91f38be206f5e2dbdeeab30ac2f948efc9b33%22%2C%22exportedName%22%3A%22getLinkedMockups%22%7D%2C%7B%22id%22%3A%2240ba4367c20d889c8274e7065fffcfcbe26ea90fe3%22%2C%22exportedName%22%3A%22getMockupById%22%7D%2C%7B%22id%22%3A%2240d7ff7c27d536c9e9790b4432839acf074d834074%22%2C%22exportedName%22%3A%22checkMockupExists%22%7D%2C%7B%22id%22%3A%227088330f76c8c1bfdfa621c727eb2c5a5e627a5064%22%2C%22exportedName%22%3A%22saveMockup%22%7D%2C%7B%22id%22%3A%2278fb866c9abd0044eb4c74b997559197c53ab30eb1%22%2C%22exportedName%22%3A%22updateMockup%22%7D%5D%5D%2C%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fimage-actions.ts%22%2C%5B%7B%22id%22%3A%224092a42fa656bc2f635ff77403211bdc498fd63438%22%2C%22exportedName%22%3A%22uploadImage%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/mockup/[id]/page": {
+          "moduleId": "(rsc)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fmockup-actions.ts%22%2C%5B%7B%22id%22%3A%22003bb4ab5d57f9468139893c8d29e5b2ee55aafe97%22%2C%22exportedName%22%3A%22getAllMockups%22%7D%2C%7B%22id%22%3A%22408be91f38be206f5e2dbdeeab30ac2f948efc9b33%22%2C%22exportedName%22%3A%22getLinkedMockups%22%7D%2C%7B%22id%22%3A%2240ba4367c20d889c8274e7065fffcfcbe26ea90fe3%22%2C%22exportedName%22%3A%22getMockupById%22%7D%2C%7B%22id%22%3A%2240d7ff7c27d536c9e9790b4432839acf074d834074%22%2C%22exportedName%22%3A%22checkMockupExists%22%7D%2C%7B%22id%22%3A%227088330f76c8c1bfdfa621c727eb2c5a5e627a5064%22%2C%22exportedName%22%3A%22saveMockup%22%7D%2C%7B%22id%22%3A%2278fb866c9abd0044eb4c74b997559197c53ab30eb1%22%2C%22exportedName%22%3A%22updateMockup%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/mockup/[id]/view/page": {
+          "moduleId": "(rsc)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fmockup-actions.ts%22%2C%5B%7B%22id%22%3A%22003bb4ab5d57f9468139893c8d29e5b2ee55aafe97%22%2C%22exportedName%22%3A%22getAllMockups%22%7D%2C%7B%22id%22%3A%22408be91f38be206f5e2dbdeeab30ac2f948efc9b33%22%2C%22exportedName%22%3A%22getLinkedMockups%22%7D%2C%7B%22id%22%3A%2240ba4367c20d889c8274e7065fffcfcbe26ea90fe3%22%2C%22exportedName%22%3A%22getMockupById%22%7D%2C%7B%22id%22%3A%2240d7ff7c27d536c9e9790b4432839acf074d834074%22%2C%22exportedName%22%3A%22checkMockupExists%22%7D%2C%7B%22id%22%3A%227088330f76c8c1bfdfa621c727eb2c5a5e627a5064%22%2C%22exportedName%22%3A%22saveMockup%22%7D%2C%7B%22id%22%3A%2278fb866c9abd0044eb4c74b997559197c53ab30eb1%22%2C%22exportedName%22%3A%22updateMockup%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser",
+        "app/mockup/[id]/page": "rsc",
+        "app/mockup/[id]/view/page": "rsc"
+      }
+    },
+    "78fb866c9abd0044eb4c74b997559197c53ab30eb1": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fstorage-setup.ts%22%2C%5B%7B%22id%22%3A%220024a7401376c879589a20ae1c1e8bdc03c7dafd5f%22%2C%22exportedName%22%3A%22setupStorageBucket%22%7D%5D%5D%2C%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fmockup-actions.ts%22%2C%5B%7B%22id%22%3A%22003bb4ab5d57f9468139893c8d29e5b2ee55aafe97%22%2C%22exportedName%22%3A%22getAllMockups%22%7D%2C%7B%22id%22%3A%22408be91f38be206f5e2dbdeeab30ac2f948efc9b33%22%2C%22exportedName%22%3A%22getLinkedMockups%22%7D%2C%7B%22id%22%3A%2240ba4367c20d889c8274e7065fffcfcbe26ea90fe3%22%2C%22exportedName%22%3A%22getMockupById%22%7D%2C%7B%22id%22%3A%2240d7ff7c27d536c9e9790b4432839acf074d834074%22%2C%22exportedName%22%3A%22checkMockupExists%22%7D%2C%7B%22id%22%3A%227088330f76c8c1bfdfa621c727eb2c5a5e627a5064%22%2C%22exportedName%22%3A%22saveMockup%22%7D%2C%7B%22id%22%3A%2278fb866c9abd0044eb4c74b997559197c53ab30eb1%22%2C%22exportedName%22%3A%22updateMockup%22%7D%5D%5D%2C%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fimage-actions.ts%22%2C%5B%7B%22id%22%3A%224092a42fa656bc2f635ff77403211bdc498fd63438%22%2C%22exportedName%22%3A%22uploadImage%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/mockup/[id]/page": {
+          "moduleId": "(rsc)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fmockup-actions.ts%22%2C%5B%7B%22id%22%3A%22003bb4ab5d57f9468139893c8d29e5b2ee55aafe97%22%2C%22exportedName%22%3A%22getAllMockups%22%7D%2C%7B%22id%22%3A%22408be91f38be206f5e2dbdeeab30ac2f948efc9b33%22%2C%22exportedName%22%3A%22getLinkedMockups%22%7D%2C%7B%22id%22%3A%2240ba4367c20d889c8274e7065fffcfcbe26ea90fe3%22%2C%22exportedName%22%3A%22getMockupById%22%7D%2C%7B%22id%22%3A%2240d7ff7c27d536c9e9790b4432839acf074d834074%22%2C%22exportedName%22%3A%22checkMockupExists%22%7D%2C%7B%22id%22%3A%227088330f76c8c1bfdfa621c727eb2c5a5e627a5064%22%2C%22exportedName%22%3A%22saveMockup%22%7D%2C%7B%22id%22%3A%2278fb866c9abd0044eb4c74b997559197c53ab30eb1%22%2C%22exportedName%22%3A%22updateMockup%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        },
+        "app/mockup/[id]/view/page": {
+          "moduleId": "(rsc)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fmockup-actions.ts%22%2C%5B%7B%22id%22%3A%22003bb4ab5d57f9468139893c8d29e5b2ee55aafe97%22%2C%22exportedName%22%3A%22getAllMockups%22%7D%2C%7B%22id%22%3A%22408be91f38be206f5e2dbdeeab30ac2f948efc9b33%22%2C%22exportedName%22%3A%22getLinkedMockups%22%7D%2C%7B%22id%22%3A%2240ba4367c20d889c8274e7065fffcfcbe26ea90fe3%22%2C%22exportedName%22%3A%22getMockupById%22%7D%2C%7B%22id%22%3A%2240d7ff7c27d536c9e9790b4432839acf074d834074%22%2C%22exportedName%22%3A%22checkMockupExists%22%7D%2C%7B%22id%22%3A%227088330f76c8c1bfdfa621c727eb2c5a5e627a5064%22%2C%22exportedName%22%3A%22saveMockup%22%7D%2C%7B%22id%22%3A%2278fb866c9abd0044eb4c74b997559197c53ab30eb1%22%2C%22exportedName%22%3A%22updateMockup%22%7D%5D%5D%5D&__client_imported__=!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser",
+        "app/mockup/[id]/page": "rsc",
+        "app/mockup/[id]/view/page": "rsc"
+      }
+    },
+    "4092a42fa656bc2f635ff77403211bdc498fd63438": {
+      "workers": {
+        "app/page": {
+          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fstorage-setup.ts%22%2C%5B%7B%22id%22%3A%220024a7401376c879589a20ae1c1e8bdc03c7dafd5f%22%2C%22exportedName%22%3A%22setupStorageBucket%22%7D%5D%5D%2C%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fmockup-actions.ts%22%2C%5B%7B%22id%22%3A%22003bb4ab5d57f9468139893c8d29e5b2ee55aafe97%22%2C%22exportedName%22%3A%22getAllMockups%22%7D%2C%7B%22id%22%3A%22408be91f38be206f5e2dbdeeab30ac2f948efc9b33%22%2C%22exportedName%22%3A%22getLinkedMockups%22%7D%2C%7B%22id%22%3A%2240ba4367c20d889c8274e7065fffcfcbe26ea90fe3%22%2C%22exportedName%22%3A%22getMockupById%22%7D%2C%7B%22id%22%3A%2240d7ff7c27d536c9e9790b4432839acf074d834074%22%2C%22exportedName%22%3A%22checkMockupExists%22%7D%2C%7B%22id%22%3A%227088330f76c8c1bfdfa621c727eb2c5a5e627a5064%22%2C%22exportedName%22%3A%22saveMockup%22%7D%2C%7B%22id%22%3A%2278fb866c9abd0044eb4c74b997559197c53ab30eb1%22%2C%22exportedName%22%3A%22updateMockup%22%7D%5D%5D%2C%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fimage-actions.ts%22%2C%5B%7B%22id%22%3A%224092a42fa656bc2f635ff77403211bdc498fd63438%22%2C%22exportedName%22%3A%22uploadImage%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/mockup/[id]/page": {
+          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fstorage-setup.ts%22%2C%5B%7B%22id%22%3A%220024a7401376c879589a20ae1c1e8bdc03c7dafd5f%22%2C%22exportedName%22%3A%22setupStorageBucket%22%7D%5D%5D%2C%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fimage-actions.ts%22%2C%5B%7B%22id%22%3A%224092a42fa656bc2f635ff77403211bdc498fd63438%22%2C%22exportedName%22%3A%22uploadImage%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        },
+        "app/mockup/[id]/view/page": {
+          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.2.4_react-dom@19.1.0_react@19.1.0/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fstorage-setup.ts%22%2C%5B%7B%22id%22%3A%220024a7401376c879589a20ae1c1e8bdc03c7dafd5f%22%2C%22exportedName%22%3A%22setupStorageBucket%22%7D%5D%5D%2C%5B%22%2Fhome%2Fproject%2Fapp%2Factions%2Fimage-actions.ts%22%2C%5B%7B%22id%22%3A%224092a42fa656bc2f635ff77403211bdc498fd63438%22%2C%22exportedName%22%3A%22uploadImage%22%7D%5D%5D%5D&__client_imported__=true!",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/page": "action-browser",
+        "app/mockup/[id]/page": "action-browser",
+        "app/mockup/[id]/view/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "Gpji+icFeVMdYialPJP4WIYmNJi+2SUOj3y7/Y42iZU="
+}
